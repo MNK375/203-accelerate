@@ -37,24 +37,24 @@ get_header(); ?>
 		                  	<p class="read-more-link"><a href="<?php echo $link; ?>">Visit Live Site ›</a></p>
 		       </aside>
 	
-  <div class="case-study-image">
+           <div class="case-study-image">
  
-         <!-- /**   <img src="http://localhost/203-accelerate/wp-content/uploads/2021/01/mc-thumbnail-1.png">
-          <img src="http://localhost/203-accelerate/wp-content/uploads/2021/01/mc-thumbnail-2.png">
-          <img src="http://localhost/203-accelerate/wp-content/uploads/2021/01/mc-thumbnail-3.png">      **/ -->
+ <!-- /**   <img src="http://localhost/203-accelerate/wp-content/uploads/2021/01/mc-thumbnail-1.png">
+  <img src="http://localhost/203-accelerate/wp-content/uploads/2021/01/mc-thumbnail-2.png">
+  <img src="http://localhost/203-accelerate/wp-content/uploads/2021/01/mc-thumbnail-3.png">      **/ -->
 
-           <?php if($image_1){ 	
+   <?php if($image_1){ 	
 echo wp_get_attachment_image( $image_1, $size );
-           }?>
-           <?php if($image_2){ 	
+   }?>
+   <?php if($image_2){ 	
 echo wp_get_attachment_image( $image_2, $size );
-           }?>
-            <?php if($image_3){ 	
+   }?>
+    <?php if($image_3){ 	
 echo wp_get_attachment_image( $image_3, $size );
-           }?>
+   }?>
 
-  </div>
-  </article>
+</div>
+</article>
 <?php endwhile; ?>
 
 		</div><!-- .main-content -->

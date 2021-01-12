@@ -57,3 +57,17 @@ div.case-study-image{
   float: left;
   width: 600px;
 }
+
+li.individual-featured-work::marker{
+  list-style: none;
+}
+
+figure img{
+  float: left;
+}
+
+
+div.case-study-image img{
+  width: 10%;
+  height: auto;
+}
