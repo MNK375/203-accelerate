@@ -49,25 +49,53 @@ Text Domain:  accelerate-theme-child
 /*case studies*/
 
 aside.case-study-sidebar{
-  float: left;
-  width: 300px;
+ display: flex;
+  flex-direction: column;
+  width: 250px;
+margin-right:0;
+}
+
+img.attachment-medium.size-medium{
+  display: flex;
+  flex-direction: column;
+}
+
+article.case-study{
+  
 }
 
 div.case-study-image{
-  float: left;
-  width: 600px;
+float: left;
 }
 
-li.individual-featured-work::marker{
+/* contact form*/
+.nf-field-container{  
+  width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+div.nf-form-content {
+  display: grid;
+  grid-auto-rows: 500px;
+}
+#nf-field-4{
+  border-radius:10%;
+  float: right;
+  background: #13D49E;
+}
+
+
+
+/* footer */
+ul#menu-social-media-navs{
+   
   list-style: none;
+  display: inline-block;
 }
 
-figure img{
-  float: left;
+span{
+  display: none;
 }
 
 
-div.case-study-image img{
-  width: 10%;
-  height: auto;
-}
