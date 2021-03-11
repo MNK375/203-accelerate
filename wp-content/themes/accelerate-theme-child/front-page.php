@@ -23,17 +23,15 @@ get_header(); ?>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
 
-<ul class="homepage-featured-work">
 <section class="featured-work">
 <div class="site-content">
 <h4>Featured Work</h4>
 <ul class="homepage-featured-work">
 <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
-</ul>
 
 					<?php while ( have_posts() ) : the_post(); 
 							$image_1= get_field("image_1");
-							$size="full";					
+							$size="medium";					
 					?>
 					<li class="individual-featured-work">
 					<figure>

@@ -11,8 +11,8 @@ Text Domain:  accelerate-theme-child
 */
 
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-}
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0); 
+} 
 
 #masthead {
   background: none repeat scroll 0 0#45ac9d;
@@ -60,12 +60,25 @@ img.attachment-medium.size-medium{
   flex-direction: column;
 }
 
-article.case-study{
-  
+
+ul.homepage-featured-work{
+  list-style: none;
 }
+
+ li{
+  display:inline-block;
+ }
 
 div.case-study-image{
 float: left;
+}
+
+li.individual-featured-work{
+  list-style: none;
+}
+
+a{
+  list-style: none;
 }
 
 /* contact form*/
@@ -75,22 +88,30 @@ float: left;
   padding: 0;
 }
 
+div#nf-field-1-container{
+  margin-left: 50px;
+}
+
 div.nf-form-content {
   display: grid;
   grid-auto-rows: 500px;
 }
+
+
 #nf-field-4{
   border-radius:10%;
   float: right;
   background: #13D49E;
 }
 
+.nf-field-container{
+   margin: 0 auto;
+}
+
 
 
 /* footer */
-ul#menu-social-media-navs{
-   
-  list-style: none;
+.social-media-menu li{
   display: inline-block;
 }
 
@@ -98,4 +119,10 @@ span{
   display: none;
 }
 
+/*      page-about      */
+
+div.wp-block-group__inner-container{
+  display: flex;
+  flex-direction: row;
+}
 
