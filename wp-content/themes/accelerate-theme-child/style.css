@@ -126,3 +126,6 @@ div.wp-block-group__inner-container{
   flex-direction: row;
 }
 
+body{
+  background-color: red;
+}
