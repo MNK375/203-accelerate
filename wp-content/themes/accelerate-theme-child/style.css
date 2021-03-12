@@ -105,7 +105,12 @@ div.nf-form-content {
 }
 
 .nf-field-container{
-   margin: 0 auto;
+  margin: 0 auto;
+   width: 100%;
+}
+
+div#nf-field-1-container{
+  margin: 0 auto;
 }
 
 
@@ -121,11 +126,28 @@ span{
 
 /*      page-about      */
 
+p.hero-text{
+  color: white;
+  font-style: bold;
+}
+
+div.main-content{
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
 div.wp-block-group__inner-container{
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
-body{
-  background-color: red;
+div#main{
+ width: 100%;
 }
+
+p.has-text-align-center{
+  width: 70%;
+}
+
+
