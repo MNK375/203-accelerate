@@ -146,8 +146,42 @@ div#main{
  width: 100%;
 }
 
-p.has-text-align-center{
-  width: 70%;
+div.wp-block-group{
+  width: 80%;
 }
 
 
+p{
+  width: 90%;
+}
+
+
+/*      404-page       */
+#main{
+  margin-left: 250px;
+  display: flex;
+  flex-direction:row-reverse;
+  margin-top: 100px;
+  font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
+
+p.four-zero-four-page{
+  width: 50%;
+  text-align: center;
+  margin: auto 0;
+}
+
+div.four-zero-four-img{
+  width: 40%;
+}
+
+.four-zero-four-h2{
+  margin-left: 30px;
+  color:#45ac9d;
+}
+
+strong{
+  color: #45ac9d;
+}
+
+/*      404-page       */
